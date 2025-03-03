@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 @font-face {
     font-family: montsEB;
@@ -51,3 +52,58 @@ body > footer address {
     montsExL, Verdana, Geneva, sans-serif;
     text-align: center;
 }
+=======
+@charset "utf-8";
+@font-face {
+    font-family: montsEB;
+    src: url('/fonts/Montserrat-ExtraBold.ttf')
+}
+@font-face {
+    font-family: montsBLK;
+    src: url('/fonts/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: montsExL;
+    src: url('/fonts/Montserrat-ExtraLight.ttf');
+}
+/*
+    Project 1
+    CIS 162
+    Professor Roni Allen
+    Author: Bob
+    Date: Mar. 2, 2025
+*/
+
+/* HTML and Body Styles */
+html {
+    background-color: hsl(177, 77%, 17%);
+}
+
+body {
+    color: rgb(105, 14, 128);
+    background-color: rgb(176, 176, 195);
+    font-family: 'montsBLK',Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.2em;
+    font-family: 'montsEB','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    h2 {
+    font-size: 1em;
+    font-family: "montsBLK",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2 {
+    letter-spacing: 0.1em;
+}
+
+/* Footer Styles */
+body > footer address {
+    background-color: rgb(115, 159, 177);
+    color: white; color: rgba(255, 255, 255, 0.7);
+    font: normal small-caps bold .50em/3em
+    montsExL, Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+>>>>>>> 7aac3643bf1c3f41fd31fe9153cb6a0655a3a6f4
